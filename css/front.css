@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+   
+    height: 50px;
+    border: 2px double rgb(63, 40, 116);
+    position: static;
+}
+body {
+    background-image: url(../image/1\ \(2\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 200px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: px;
+    text-align: center;
+    
+}
+
+div {
+    margin-top: 160px;
+}
+
+div label {
+    color: #FFFF00;
+    font-size: 20px;
+    font-weight: 10;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    transition: all 0.25s;  
+}
+
+button {
+    font-size: 12px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #008000;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    font-weight: 400;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.25s;
+    
+}
+
+input {
+    border: 2px solid black ;
+    width: 180px;
+    height: 20px;
+    border-radius: 8px;
+    margin-top: 4px;
+    font-family:sans-serif; font-size:16px; line-height:20px;
+    transition: all 0.25s;
+    padding-left: 7px;            /* input take  space  some space during input*/
+} 
+
+button:hover {
+    background-color: #7CFC00;
+    color: black;
+    border:2px solid red;
+    box-shadow: 2px magenta;
+    padding: 3px 15px;
+    box-shadow: 0 0.7em 0.5em -0.4em rgb(226, 250, 10);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input:hover {
+    background-color: rgb(223, 221, 222);
+    border: white;
+    width: 220px;
+    height: 22px    ;
+}
+
+
+input[type="email"]::placeholder { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+i {
+    color: #7CFC00;
+    margin-top: 200px;
+}
+
+#developer {
+    margin-top: 228px;
+    
+   
+    text-align: end;
+    
+}
+
+
+
+
